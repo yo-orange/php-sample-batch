@@ -1,0 +1,8 @@
+monolog:
+    handlers:
+        main:
+            type: console
+            level: debug
+        test:
+            type: test
+            level: debug
